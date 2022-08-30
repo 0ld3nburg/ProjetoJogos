@@ -2,9 +2,7 @@ import random
 
 def jogar():
 
-    print("*********************************")
-    print("Bem vindo ao jogo de Adivinhação!")
-    print("*********************************")
+    imprime_mensagem_abertura()
 
     numero_secreto = random.randrange(1,101)
     total_de_tentativas = 0
@@ -52,3 +50,8 @@ def jogar():
 
 if(__name__ == "__main__"):
     jogar()
+
+def imprime_mensagem_abertura():
+    print("*********************************")
+    print("Bem vindo ao jogo de Adivinhação!")
+    print("*********************************")
