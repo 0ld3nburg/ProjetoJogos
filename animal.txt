@@ -1,0 +1,4 @@
+macaco
+gato
+cachorro
+elefante
