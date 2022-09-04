@@ -2,3 +2,8 @@ macaco
 gato
 cachorro
 elefante
+rato
+zebra
+cavalo
+vaca
+rinoceronte

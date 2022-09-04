@@ -1,4 +1,6 @@
-maca
+jabuticaba
 melancia
 banana
 laranja
+bergamota
+morango

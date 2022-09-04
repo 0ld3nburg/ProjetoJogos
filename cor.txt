@@ -2,3 +2,8 @@ verde
 vermelho
 amarelo
 azul
+roxo
+preto
+branco
+cinza
+marrom

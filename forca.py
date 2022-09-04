@@ -101,6 +101,7 @@ def carrega_palavra_secreta():
         escolhe_dica = int(input("Escolha uma dica: (1) Fruta (2) Animal (3) Cor \n"))
 
     if escolhe_dica == 1:
+        print("Você escolheu jogar com a dica: Fruta")
         arquivo = open("frutas.txt", "r")
         palavras = []
 
@@ -115,6 +116,7 @@ def carrega_palavra_secreta():
         return palavra_secreta
 
     elif escolhe_dica == 2:
+        print("Você escolheu jogar com a dica: Animal")
         arquivo = open("animal.txt", "r")
         palavras = []
 
@@ -129,6 +131,7 @@ def carrega_palavra_secreta():
         return palavra_secreta
 
     else:
+        print("Você escolheu jogar com a dica: Cor")
         arquivo = open("cor.txt", "r")
         palavras = []
 
